@@ -44,7 +44,7 @@ body{
 }
 /* Featured Styles Starts Here  */
 .featured-containers{
-    width: 80%;
+    width: 75%;
     margin: 170px 240px 125px 240px;
 }
 .featured-content{
@@ -109,4 +109,23 @@ body{
     font-size: 24px;
     font-weight: 700px;
     color: #272727;
+}
+/* Optional Styles Starts Here  */
+.optional-containers{
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 240px 130px 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.optional-content{
+    text-align: center;
+}
+.optional-content-description{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
