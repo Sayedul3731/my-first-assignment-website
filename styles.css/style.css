@@ -44,7 +44,7 @@ body{
 }
 /* Featured Styles Starts Here  */
 .featured-containers{
-    width: 75%;
+    width: 70%;
     margin: 170px 240px 125px 240px;
 }
 .featured-content{
@@ -112,6 +112,7 @@ body{
 }
 /* Optional Styles Starts Here  */
 .optional-containers{
+    width: 75%;
     height: 320px;
     display: flex;
     justify-content: space-around;
@@ -158,6 +159,11 @@ body{
     color: rgba(39, 39, 39, 0.60);
 }
 /* instagram styles starts here  */
+.instagram-containers{
+    width: 65%;
+    margin-left: 240px;
+    margin-right: 240px;
+}
 .instagram-content{
     text-align: center;
 }
@@ -173,10 +179,51 @@ body{
     color: rgba(39, 39, 39, 0.60);
 }
 .instagram-images-box{
+    width: 60%;
     display: flex;
     justify-content: baseline;
     align-items: center;
-    gap: 25px;
-    margin-left: 240px;
+    gap: 22px;
     margin-top: 50px;
+}
+.instagram-img-box1, .instagram-img-box2, .instagram-img-box3, .instagram-img-box4{
+    width: 338px;
+}
+/* latest deal styles starts here */
+.latest-deal-containers{
+    width: 1420px;
+    height: 450px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: url("/image/Rectangle\ 9.png"), lightgray 0px -203.444px / 100% 213.755%;
+    background-repeat: no-repeat;
+    margin: 130px 240px 130px 240px;
+    text-align: center;
+    position: relative;
+}
+.deal-containers{
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 280px;
+}
+.latest-deal-content{
+    text-align: center;
+
+}
+.latest-deal-title{
+    font-size: 40px;
+    font-weight: 800px;
+    color: #272727;
+}
+.latest-deal-desc{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.btn-email{
+    border: 0px;
+    border-radius: 8px;
+    padding: 22px 510px 22px 22px;
+    margin-top: 45px;
+    margin-right: 16px;
 }
