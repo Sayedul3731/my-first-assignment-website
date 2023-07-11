@@ -191,7 +191,7 @@ body{
 }
 /* latest deal styles starts here */
 .latest-deal-containers{
-    width: 1420px;
+    width: 1428px;
     height: 450px;
     border-radius: 8px;
     border-radius: 8px;
@@ -226,4 +226,39 @@ body{
     padding: 22px 510px 22px 22px;
     margin-top: 45px;
     margin-right: 16px;
+}
+/* footer styles starts here  */
+.footer-containers{
+    width: 100%;
+    height: 50vh;
+    background-color: #111010;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.footer-content{
+    width: 630px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 650px;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 800px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.footer-extra-desc{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.40);
+}
+span{
+    color: #E55473;
 }
