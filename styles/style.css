@@ -231,7 +231,7 @@ body{
     height: 450px;
     border-radius: 8px;
     border-radius: 8px;
-    background: url("/image/Rectangle\ 9.png"), lightgray 0px -203.444px / 100% 213.755%;
+    background: url("./image/Rectangle\ 9.png"), lightgray 0px -203.444px / 100% 213.755%;
     background-repeat: no-repeat;
     margin: 130px 240px 130px 240px;
     text-align: center;
